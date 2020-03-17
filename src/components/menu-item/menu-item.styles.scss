@@ -36,6 +36,10 @@
     margin-left: 7.5px;
   }
 
+  &:hover .content {
+    opacity: .9;
+  }
+
   .content {
     height: 90px;
     padding: 0 25px;
