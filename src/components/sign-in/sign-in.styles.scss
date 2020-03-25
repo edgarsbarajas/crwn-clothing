@@ -1,0 +1,13 @@
+.sign-in {
+  width: 100%;
+}
+
+.sign-in .custom-button:not(:last-child) {
+  margin-right: 16px;
+}
+
+@media(min-width: 768px) {
+  .sign-in {
+    width: 30%;
+  }
+}
