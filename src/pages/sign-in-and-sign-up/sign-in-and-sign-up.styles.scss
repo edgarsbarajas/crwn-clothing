@@ -1,0 +1,14 @@
+.sign-in-and-sign-up {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > div:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .sign-in-and-sign-up > div:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.sign-up {
+  width: 100%;
+
+  .title {
+    margin: 10px 0;
+  }
+}
+
+@media(min-width: 1024px) {
+  .sign-up {
+    width: 50%;
+    padding: 40px;
+  }
+}
